@@ -42,16 +42,22 @@ h1 {
 p {
   text-align: center;
 }
+
 form {
   text-align: center;
   background-color: #d8a7e4;
-  margin-top: 200px;
-  margin-bottom: 00px;
-  margin-left: 600px;
-  margin-right: 600px;
+  margin-top: 10%;
+  margin-bottom: %;
+  margin-left: 35%;
+  margin-right: 35%;
   border-radius:20px;
   border: 2px solid rgb(0, 0, 0);
   box-shadow: 5px 5px 20px 5px #000;
+  /* height: 500px; */
+}
+
+form input {
+  position: center;
 }
 
 .butt:hover {
@@ -84,7 +90,6 @@ body {
 
 .pass {
   position: relative;
-  left: 47px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -93,13 +98,10 @@ body {
   border-radius: 20px;
   border: none;
   cursor: pointer;
-  padding: 4px;
+  padding: 10px 50px;
+
 }
 
 .check {
   margin-right: 100px;
-}
-
-#check {
-  ;
 }
