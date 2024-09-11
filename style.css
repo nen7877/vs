@@ -43,31 +43,28 @@ p {
   text-align: center;
 }
 
-form {
+.forma {
   text-align: center;
   background-color: #d8a7e4;
   margin-top: 10%;
   margin-bottom: %;
-  margin-left: 35%;
-  margin-right: 35%;
+  margin-left: 38%;
+  margin-right: 38%;
   border-radius:20px;
   border: 2px solid rgb(0, 0, 0);
   box-shadow: 5px 5px 20px 5px #000;
-  /* height: 500px; */
+  height: 50%;
 }
 
-form input {
-  position: center;
-}
 
-.butt:hover {
+/* .butt:hover {
   background-color: rgb(33, 0, 218);
   background: linear-gradient(to bottom, #7B68EE, #EE82EE);
 }
 .butt:active {
   background-color: rgb(0, 0, 92);
   background: linear-gradient(to bottom, #6d40eb, #ec38ec);
-}
+} */
 body {
   background-size: cover;
   height: 900px;
@@ -80,28 +77,39 @@ body {
 }
 
 .butt {
-  padding: 10px 25px;
+  padding: 2% 18%;
   border: none;
   border-radius: 20px;
   cursor: pointer;
+  background-color: white;
   transition: background 0.2s, color 0.2s;
   /* background: linear-gradient(to bottom, #7B68EE, #EE82EE); */
-}
-
-.pass {
-  position: relative;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 3%;
 }
 
 #password, #username {
   border-radius: 20px;
   border: none;
   cursor: pointer;
-  padding: 10px 50px;
+  padding: 2% 9%;
 
 }
 
-.check {
-  margin-right: 100px;
+ #password {
+  margin-top: 2%;
+ }
+
+.google {
+  padding: 2% 18%;
+  border: none;
+  border-radius: 20px;
+  background: url('image/google2.png')no-repeat;
+  background-size: contain ; 
+  background-color: rgb(255, 255, 255);
+  transition: background 0.2s, color 0.2s;
+  cursor: pointer;
+}
+
+.google:hover {
+  opacity: .7;
 }

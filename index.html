@@ -17,21 +17,24 @@
             </ul>
           </nav>          
     </header>
-    <form>
+    <div class="forma">
+        <form>
         <h1>Войти</h1>
-        <div>   
-          <label for="username">Имя пользователя:</label><br>
-            <input type="text" id="username" name="username" placeholder="Введите ваш логин"><br>  
+        <div>  
+            <input type="text" id="username" name="username" placeholder="Enter your email"><br> 
+            <input type="text" id="password" name="password" placeholder="Enter your password">
         </div>
-        <div class="pass" >
-            <label for="password">Пароль:</label><br>
-            <input type="text" id="password" name="password" placeholder="Введите пароль"><br></div>
+        <div>
+        <a href="#">forgot your password?</a>
         </div>
-        <div style="margin-bottom: 20px;">
-            <input type="submit" class="butt" value="Отправить">
-            <input type="reset" class="butt" value="Сбросить">    
+        <div>
+            <input type="submit" class="butt" value="Отправить"> 
         </div>
     </form>
-
+    <div>
+        <p>-----or-----</p>
+        <button class="google" onclick="#">Google</button>
+    </div>
+    </div>
 </body>
 </html>
